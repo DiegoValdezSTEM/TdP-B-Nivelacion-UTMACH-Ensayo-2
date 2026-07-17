@@ -1,16 +1,16 @@
 package com.utmach.ensayo2;
 
-import java.util.Scanner;
+/**
+ * @author Diego Andrés Valdez Aguilar
+ */
 
+import java.util.Scanner;
 public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int dia;
-
         System.out.print("Ingrese un número del 1 al 7: ");
         dia = sc.nextInt();
-
         switch (dia) {
             case 1:
                 System.out.println("Lunes");

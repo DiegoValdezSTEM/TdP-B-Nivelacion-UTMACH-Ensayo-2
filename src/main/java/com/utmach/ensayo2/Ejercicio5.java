@@ -1,16 +1,16 @@
 package com.utmach.ensayo2;
 
-import java.util.Scanner;
+/**
+ * @author Diego Andrés Valdez Aguilar
+ */
 
+import java.util.Scanner;
 public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         double calificacion;
-
         System.out.print("Ingrese una calificación (0-10): ");
         calificacion = sc.nextDouble();
-
         if (calificacion >= 9) {
             System.out.println("Excelente");
         } else if (calificacion >= 8) {
